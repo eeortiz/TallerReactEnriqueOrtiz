@@ -12,7 +12,7 @@ const Summary = () => {
   const [showBiograPhy, setShowBiograPhy] = useState(false)
 
   return (
-    <div className=" mt-6 w-full justify-center  flex">
+    <div className=" mt-7  w-full justify-center  flex">
       <h1 className="m-4   font-bold text-xl  ">
         Resumen de los datos digitados por el usuario
       </h1>
@@ -20,9 +20,9 @@ const Summary = () => {
         <li>
           <p
             onClick={() => setShowDataBase(!showDataBase)}
-            className="text-lg  hover:cursor-pointer bg-slate-600 w-8/12 rounded-md mx-3 h-8 text-center  pr-28  pl-20 pt-2  md:pr-64 md:pt-2 md: pb- md:pl-60  "
+            className="text-lg  hover:cursor-pointer bg-slate-600 w-8/12 rounded-md mx-3 h-10 text-center  pr-28  pl-20 pt-2  md:pr-64 md:pt-2 md: pb- md:pl-60  "
           >
-            DatosBasicos
+            DatosBásicos
           </p>
           <li
             className="pt-3 mx-5"
@@ -45,9 +45,9 @@ const Summary = () => {
         <li className="mt-5">
           <p
             onClick={() => setShowOcupation(!showOcupation)}
-            className="text-lg hover:cursor-pointer  bg-slate-600 w-8/12 rounded-md mx-3 h-8 text-center  pr-28  pl-20 pt-2  md:pr-64 md:pt-2 md: pb- md:pl-60 "
+            className="text-lg hover:cursor-pointer  bg-slate-600 w-8/12 rounded-md mx-3 h-10 text-center  pr-28  pl-20 pt-2  md:pr-64 md:pt-2 md: pb- md:pl-60 "
           >
-            Ocupacion
+            Ocupación
           </p>
           <li
             hidden={!showOcupation}
@@ -70,9 +70,9 @@ const Summary = () => {
         <li className="mt-5">
           <p
             onClick={() => setShowProfetion(!showProfetion)}
-            className="text-lg hover:cursor-pointer  bg-slate-600 w-8/12 rounded-md mx-3 h-8 text-center  pr-28  pl-20 pt-2  md:pr-64 md:pt-2 md: pb-1 md:pl-60 "
+            className="text-lg hover:cursor-pointer  bg-slate-600 w-8/12 rounded-md mx-3 h-10 text-center  pr-28  pl-20 pt-2  md:pr-64 md:pt-2 md: pb-1 md:pl-60 "
           >
-            Profesion
+            Profesión
           </p>
           <li
             hidden={!showProfetion}
@@ -95,7 +95,7 @@ const Summary = () => {
         <li className="mt-5">
           <p
             onClick={() => setShowBiograPhy(!showBiograPhy)}
-            className="text-lg hover:cursor-pointer  bg-slate-600 w-8/12 rounded-md mx-3 h-8 text-center  pr-28  pl-20 pt-2  md:pr-64 md:pt-2 md: pb-1 md:pl-60 "
+            className="text-lg hover:cursor-pointer  bg-slate-600 w-8/12 rounded-md mx-3 h-10 text-center  pr-28  pl-20 pt-2  md:pr-64 md:pt-2 md: pb-1 md:pl-60 "
           >
             Biografia
           </p>

@@ -10,15 +10,15 @@ import Database from '../page/Database'
 const Navigate = () => {
   return (
     <BrowserRouter>
-      <div className="main-layout">
+      <div className="main-layout ">
         <nav>
           <ul>
             <li>
               <NavLink
                 to="/Datos_Basicos"
-                className={({ isActive }) => (isActive ? 'nav-active' : '')}
+                className= {({ isActive }) => (isActive ? 'nav-active' : '')}
               >
-                Datos Basicos
+                Datos Básicos
               </NavLink>
             </li>
             <li>
@@ -26,7 +26,7 @@ const Navigate = () => {
                 to="/Ocupacion"
                 className={({ isActive }) => (isActive ? 'nav-active' : '')}
               >
-                Ocupacion
+                Ocupación
               </NavLink>
             </li>
             <li>
@@ -34,7 +34,7 @@ const Navigate = () => {
                 to="/Profesion"
                 className={({ isActive }) => (isActive ? 'nav-active' : '')}
               >
-                Profesion
+                Profesión
               </NavLink>
             </li>
             <li>

@@ -45,7 +45,7 @@ const Database = () => {
 
       LastName: Yup.string()
         .required('Campo Requerido')
-        .max(10, 'Debe digitar max 10 caracteres')
+        .max(15, 'Debe digitar max 10 caracteres')
         .min(3, 'EL apellido debe tener mas de tres caracteres'),
 
       Email: Yup.string()
@@ -63,7 +63,7 @@ const Database = () => {
     <div className="w-full justify-center  flex">
       <div className="pt-5 w-5/12   ">
         <h1 className="text-white text-center pb-2">
-          Formulario Datos basicos
+          Datos Básicos
         </h1>
 
         <form
@@ -93,7 +93,7 @@ const Database = () => {
               htmlFor="LastName"
               className="block text-gray-700 text-sm font-bold mb-2"
             >
-              Apellido
+              Apellidos
             </label>
 
             <input
@@ -129,7 +129,7 @@ const Database = () => {
               htmlFor="Phone"
               className="block text-gray-700 text-sm font-bold mb-2"
             >
-              Telefonos
+              Teléfono
             </label>
 
             <input
